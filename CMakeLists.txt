@@ -21,7 +21,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-find_package(OpenCV 4 REQUIRED)
+find_package(OpenCV 3.2.0 REQUIRED)
 
 add_message_files(
   FILES
@@ -29,6 +29,11 @@ add_message_files(
   PersonArray.msg
   Leg.msg
   LegArray.msg
+)
+
+add_service_files(
+  FILES
+  Track.srv
 )
 
 generate_messages(   
