@@ -24,6 +24,6 @@
   <node pkg="leg_tracker" type="local_occupancy_grid_mapping" name="local_occupancy_grid_mapping" output="screen"/> 
 
   <node name="leg_controller" type="omo_r1_leg_tracker.py" pkg="leg_tracker" output="screen"/>
-   
+
 </launch>
 

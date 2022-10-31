@@ -31,6 +31,11 @@ add_message_files(
   LegArray.msg
 )
 
+add_service_files(
+  FILES
+  Track.srv
+)
+
 generate_messages(   
   DEPENDENCIES  
   std_msgs  
